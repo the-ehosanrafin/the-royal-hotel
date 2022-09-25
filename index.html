@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome To The Royal Hotel</title>
+
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+
+    <section id="navbar" class="container-fluid g-0 wow fadeInDown">
+      <nav class="navbar navbar-expand-lg py-md-0">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand logo d-flex flex-column flex-column-reverse align-items-center justify-content-center px-md-5"
+            href="#"
+          >
+            <h2 class="sub-title fw-semibold">HOTEL</h2>
+            <h1 class="title">The Royal</h1>
+            <p class="star">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </p>
+          </a>
+          <button
+            class="navbar-toggler bg-dark"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-button py-md-4 px-md-3 text-white text-uppercase fw-bold"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-button py-md-4 px-md-3 text-white text-uppercase fw-bold"
+                  href="./assets/pages/rooms/index.html"
+                  >rooms</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-button py-md-4 px-md-3 text-white text-uppercase fw-bold"
+                  >news</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-button py-md-4 px-md-3 text-white text-uppercase fw-bold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  about us
+                </a>
+                <ul class="dropdown-menu rounded bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item bg-dark text-white fw-semibold text-capitalize"
+                      href="#"
+                      >review</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item bg-dark text-white fw-semibold text-capitalize"
+                      href="#"
+                      >services</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item bg-dark text-white fw-semibold text-capitalize"
+                      href="#"
+                      >contacts & info</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                type="search"
+                placeholder="search a room"
+                class="btn px-md-0 mx-md-5 fw-bold py-md-1 text-uppercase"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- navbar close -->
+
+    <!-- hero start -->
+    <section
+      id="hero"
+      class="container-fluid g-0 d-flex flex-column align-items-center justify-content-center py-5"
+    >
+      <h3 class="sub-title text-white text-center mt-5">The Royal Hotel</h3>
+      <h1
+        class="title text-capitalize text-white text-center fs-1 fw-semibold my-4 wow fadeInUp"
+      >
+        the most luxurious accommodation in town
+      </h1>
+      <h3 class="details text-center my-5 text-uppercase fw-semibold fs-4">
+        hotel - resort - restaurant
+      </h3>
+      <button
+        class="btn px-md-4 my-md-5 fw-bold py-md-1 text-uppercase mx-auto text-center"
+        type="submit"
+      >
+        book your stay
+      </button>
+    </section>
+    <!-- hero close -->
+
+    <!-- form-start -->
+    <section id="form" class="container">
+      <form
+        action=""
+        class="rounder form-control d-flex flex-column flex-md-row gap-4 align-items-center justify-content-around py-5"
+      >
+        <div class="d-flex flex-column justify-content-start align-items-start">
+          <label for="">Arrival Date</label>
+          <input type="date" name="" id="" class="text-uppercase date" />
+        </div>
+        <div class="d-flex flex-column justify-content-start align-items-start">
+          <label for="">Departure Date</label>
+          <input type="date" name="" id="" class="text-uppercase date" />
+        </div>
+        <div class="">
+          <select name="" id="" class="px-3 py-2">
+            <option value="">Select Room</option>
+            <option value="">Deluxe Suite</option>
+            <option value="">Luxury Suite</option>
+          </select>
+        </div>
+
+        <button class="btn"><i class="bi bi-search"></i> FIND</button>
+      </form>
+    </section>
+    <!-- form close -->
+
+    <!-- about start -->
+    <section id="about" class="container py-5">
+      <div
+        class="row d-flex flex-column flex-column-reverse flex-md-row gap-md-0 gap-4 justify-content-center align align-items-center"
+      >
+        <div class="col-12 col-md-6 wow fadeInLeftBig">
+          <h3 class="sub-title text-uppercase fw-semibold text-secondary">
+            luxury resort
+          </h3>
+          <h1 class="title fw-bold text-uppercase">Relax in our Hotel</h1>
+          <p class="details text-secondary fw-semibold my-5">
+            Praesent fermentum ligula in dui imperdiet, vel tempus nulla
+            ultricies. Phasellus at commodo ligula. Nullam molestie volutpat
+            sapien, a dignissim tortor laoreet quis. Class aptent taciti
+            sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos.
+          </p>
+          <a href="" class="link text-uppercase fw-semibold d-block"
+            >view more</a
+          >
+
+          <button
+            class="btn px-md-4 my-5 fw-bold py-md-1 text-uppercase mx-auto text-center"
+            type="submit"
+          >
+            book your stay
+          </button>
+        </div>
+        <div
+          class="col-12 col-md-6 d-flex justify-content-md-end justify-content-center wow fadeInRightBig"
+        >
+          <img src="./assets/images/about.jpg" alt="" class="w-75 img-fluid" />
+        </div>
+      </div>
+    </section>
+    <!-- about close -->
+
+    <!-- feature start -->
+    <section id="feature" class="container-fluid mb-5">
+      <div
+        class="row bg-dark d-flex flex-column flex-md-row gap-5 gap-md-0 justify-content-between align-items-center"
+      >
+        <div class="col-12 col-md-5 left"></div>
+        <div class="col-12 col-md-6 right wow fadeInUpBig">
+          <h3 class="sub-title text-uppercase fw-semibold">luxury resort</h3>
+          <h1 class="title fw-bold text-uppercase text-white">
+            Rooms with private swimming pool
+          </h1>
+          <p class="details text-secondary fw-semibold my-5">
+            Praesent fermentum ligula in dui imperdiet, vel tempus nulla
+            ultricies. Phasellus at commodo ligula. Nullam molestie volutpat
+            sapien, a dignissim tortor laoreet quis. Class aptent taciti
+            sociosqu ad litora torquent per conubia nostra. Phasellus at commodo
+            ligula. Nullam molestie volutpat sapien, a dignissim tortor per
+            inceptos himenaeos laoreet quis. Class aptent taciti soci osqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos.
+          </p>
+          <p class="sub-title fw-semibold">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <br />
+            “ Praesent fermentum ligula in dui imperdiet, vel tempus nulla
+            ultricies. Phasellus at commodo ligula. Nullam molestie volutpat
+            sapien, a dignissim tortor laoreet quis.
+            <br />
+            - Client.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- feature close -->
+
+    <!-- rooms start -->
+    <section id="rooms" class="container-fluid my-5">
+      <div class="top my-5">
+        <h3
+          class="sub-title text-uppercase fw-semibold fs-4 text-center text-secondary"
+        >
+          our rooms
+        </h3>
+        <h1 class="title text-uppercase fw-bold text-center">Featured Rooms</h1>
+      </div>
+      <div class="bottom">
+        <div class="row d-md-flex justify-content-evenly">
+          <div class="col-12 col-md-3 border">
+            <div class="row photo wow fadeInDown"></div>
+            <div class="row text wow fadeInUp">
+              <h2
+                class="title text-center text-uppercase fs-3 fw-semibold my-3"
+              >
+                Suite Room
+              </h2>
+              <p class="details text-secondary text-center fw-semibold my-3">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <span class="price fw-semibold text-center my-3"
+                >$450 / NIGHT</span
+              >
+              <button
+                class="btn fw-semibold justify-content-center col-4 mx-auto mb-3"
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 d-md-flex flex-column-reverse border">
+            <div class="row photo wow fadeInUp"></div>
+            <div class="row text wow fadeInDown">
+              <h2
+                class="title text-center text-uppercase fs-3 fw-semibold my-3"
+              >
+                deluxe Room
+              </h2>
+              <p class="details text-secondary text-center fw-semibold my-3">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <span class="price fw-semibold text-center my-3"
+                >$690 / NIGHT</span
+              >
+              <button
+                class="btn fw-semibold justify-content-center col-4 mx-auto mb-3"
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 border">
+            <div class="row photo wow fadeInDown"></div>
+            <div class="row text wow fadeInUp">
+              <h2
+                class="title text-center text-uppercase fs-3 fw-semibold my-3"
+              >
+                family Room
+              </h2>
+              <p class="details text-secondary text-center fw-semibold my-3">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <span class="price fw-semibold text-center my-3"
+                >$1150 / NIGHT</span
+              >
+              <button
+                class="btn fw-semibold justify-content-center col-4 mx-auto mb-3"
+              >
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- rooms close -->
+
+    <!-- hotel slide start -->
+    <section id="hotel-slide" class="container-fluid my-5">
+      <h2 class="title text-uppercase fw-semibold text-center my-4">
+        enjoy your vacation with us
+      </h2>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-1.jpg" alt="" /></h4>
+        </div>
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-2.jpg" alt="" /></h4>
+        </div>
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-3.jpg" alt="" /></h4>
+        </div>
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-4.jpg" alt="" /></h4>
+        </div>
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-5.jpg" alt="" /></h4>
+        </div>
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-6.jpg" alt="" /></h4>
+        </div>
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-7.jpg" alt="" /></h4>
+        </div>
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-8.jpg" alt="" /></h4>
+        </div>
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-9.jpg" alt="" /></h4>
+        </div>
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-10.jpg" alt="" /></h4>
+        </div>
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-11.jpg" alt="" /></h4>
+        </div>
+        <div class="item">
+          <h4><img src="./assets/images/hotel-slide-12.jpg" alt="" /></h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- hotel slide close -->
+
+    <!-- restaurant start -->
+    <section id="restaurant" class="container g-0 my-5">
+      <div class="top my-5">
+        <h3
+          class="sub-title text-uppercase fw-semibold fs-4 text-center text-secondary"
+        >
+          restaurant
+        </h3>
+        <h1 class="title text-uppercase fw-bold text-center">bar & resta</h1>
+      </div>
+      <div class="bottom">
+        <div class="row d-md-flex justify-content-between">
+          <div class="col-12 col-md-5 left wow fadeInLeftBig"></div>
+          <div
+            class="col-12 col-md-6 right d-flex flex-wrap justify-content-around p-3 gap-2"
+          >
+            <div
+              class="box rounded py-5 d-flex justify-content-center align-items-center wow flipInX"
+            >
+              <h3 class="text-uppercase fw-semibold text-white">Chinese</h3>
+            </div>
+            <div
+              class="box rounded p-5 d-flex justify-content-center align-items-center wow flipInX"
+            >
+              <h3 class="text-uppercase fw-semibold text-white">italian</h3>
+            </div>
+            <div
+              class="box rounded p-5 d-flex justify-content-center align-items-center wow flipInX"
+            >
+              <h3 class="text-uppercase fw-semibold text-white">Spices</h3>
+            </div>
+            <div
+              class="box rounded p-5 d-flex justify-content-center align-items-center wow flipInX"
+            >
+              <h3 class="text-uppercase fw-semibold text-white">thai</h3>
+            </div>
+            <div
+              class="box rounded p-5 d-flex justify-content-center align-items-center wow flipInX"
+            >
+              <h3 class="text-uppercase fw-semibold text-white">indian</h3>
+            </div>
+            <div
+              class="box rounded p-5 d-flex justify-content-center align-items-center wow flipInX"
+            >
+              <h3 class="text-uppercase fw-semibold text-white">fast food</h3>
+            </div>
+            <div
+              class="box rounded p-5 d-flex justify-content-center align-items-center wow flipInX"
+            >
+              <h3 class="text-uppercase fw-semibold text-white">drinks</h3>
+            </div>
+            <div
+              class="box rounded p-5 d-flex justify-content-center align-items-center wow flipInX"
+            >
+              <h3 class="text-uppercase fw-semibold text-white">wine</h3>
+            </div>
+            <div
+              class="box rounded p-5 d-flex justify-content-center align-items-center wow flipInX"
+            >
+              <h3 class="text-uppercase fw-semibold text-white">dessert</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- restaurant close -->
+
+    <!-- review start -->
+    <section id="review" class="my-5">
+      <div class="top my-5">
+        <h3
+          class="sub-title text-uppercase fw-semibold fs-4 text-center text-secondary"
+        >
+          review
+        </h3>
+        <h1 class="title text-uppercase fw-bold text-center">coustomer ratings</h1>
+      </div>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="box d-flex flex-column justify-content-center align-items-center rounded">
+            <div class="photo d-flex justify-content-center align-items-center  my-3">
+              <img src="./assets/images/touhidsir.jpg" alt="" class=" ">
+            </div>
+            <h2 class="title text-uppercase fw-semibold fs-4">touhid hossain</h2>
+            <p class="sub-title text-capitalize fw-semibold text-secondary">profession: teacher</p>
+            <div class="my-3 star">
+              <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+             (4.5)
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box d-flex flex-column justify-content-center align-items-center rounded">
+            <div class="photo d-flex justify-content-center align-items-center  my-3">
+              <img src="./assets/images/litonsir.JPG" alt="" class=" ">
+            </div>
+            <h2 class="title text-uppercase fw-semibold fs-4">sayduzzaman liton</h2>
+            <p class="sub-title text-capitalize fw-semibold text-secondary">profession: teacher</p>
+            <div class="my-3 star">
+              <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+             (5)
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box d-flex flex-column justify-content-center align-items-center rounded">
+            <div class="photo d-flex justify-content-center align-items-center  my-3">
+              <img src="./assets/images/munnimaam.JPG" alt="" class=" ">
+            </div>
+            <h2 class="title text-uppercase fw-semibold fs-4">munni khatun</h2>
+            <p class="sub-title text-capitalize fw-semibold text-secondary">profession: teacher</p>
+            <div class="my-3 star">
+              <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+             (3.5)
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box d-flex flex-column justify-content-center align-items-center rounded">
+            <div class="photo d-flex justify-content-center align-items-center  my-3">
+              <img src="./assets/images/hillolsir.JPG" alt="" class=" ">
+            </div>
+            <h2 class="title text-uppercase fw-semibold fs-4">hillol mondol</h2>
+            <p class="sub-title text-capitalize fw-semibold text-secondary">profession: teacher</p>
+            <div class="my-3 star">
+              <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+             (4.5)
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review close -->
+
+    <section
+      id="count"
+      class="container-fluid d-flex flex-column gap-5 flex-md-row justify-content-evenly py-5 my-5"
+    >
+      <div class="">
+        <h3 class="subtitle fs-2 fw-bold text-center">200</h3>
+        <h1 class="title fs-6 fw-bold text-center ">
+          ROOMS
+        </h1>
+      </div>
+      <div class="">
+        <h3 class="subtitle fs-2 fw-bold text-center">900</h3>
+        <h1 class="title fs-6 fw-bold text-center ">
+          RESTAURANTS
+        </h1>
+      </div>
+      <div class="">
+        <h3 class="subtitle fs-2 fw-bold text-center">3</h3>
+        <h1 class="title fs-6 fw-bold text-center ">
+          ISLAND
+        </h1>
+      </div>
+      <div class="">
+        <h3 class="subtitle fs-2 fw-bold text-center">71 200</h3>
+        <h1 class="title fs-6 fw-bold text-center ">
+          TOTAL BOOKING
+        </h1>
+      </div>
+      <div class="">
+        <h3 class="subtitle fs-2 fw-bold text-center">580</h3>
+        <h1 class="title fs-6 fw-bold text-center ">
+          HOTEL
+        </h1>
+      </div>
+    </section>
+
+    <section id="footer" class="container-fluid wow fadeInUp ">
+      <h3 class=" text-light text-uppercase fs-5 text-center">This website is created by "ehosan rafin & team"</h3>
+      <div class="text-light fs-5 pb-3 text-center d-flex gap-3 justify-content-center">
+        <i class="bi bi-facebook"></i>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-linkedin"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-pinterest"></i>
+      <i class="bi bi-envelope"></i>
+      <i class="bi bi-telephone-fill"></i>
+      </div>
+    </section>
+
+    <script src="./assets/js/jquery-3.6.1.min.js"></script>
+
+    <script src="./assets/js/owl.carousel.min.js"></script>
+
+    <script src="./assets/js/customowl.js"></script>
+
+    <script src="./assets/js/wow.min.js"></script>
+
+    <script src="./assets/js/customwow.js"></script>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

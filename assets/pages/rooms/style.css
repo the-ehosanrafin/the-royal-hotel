@@ -1,0 +1,109 @@
+img{
+    max-width: 100%;
+}
+
+#navbar{
+    background: #081123;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+#navbar .active {
+    background: #5a2360;
+    
+}
+#navbar .logo .sub-title{
+    color: #d6baa0;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+#navbar .logo .title{
+    color: white;
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+}
+#navbar .logo .star{
+    color: #d6baa0;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+#navbar .nav-button:hover{
+    background: #5a2360;
+    transition: all 0.5s;
+}
+#navbar .btn{
+    background: #5a2360;
+    color: white;
+    border: 2px solid #d6baa0;
+}
+
+
+
+#rooms .top .title{
+    color: #5a2360;
+}
+#rooms .bottom .text .price{
+    color: #ae855f;
+}
+#rooms .bottom .row .col-12 .text:hover{
+    background: #5a2360;
+    transition: all 0.3s;
+    color: white;
+}
+
+
+#rooms .bottom .row:nth-child(1) .col-12:nth-child(1) .photo{
+    height: 300px;
+    background:url("../../../assets/images/room\ \(1\).jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+#rooms .bottom .row:nth-child(1) .col-12:nth-child(2) .photo{
+    height: 300px;
+    background:url("../../../assets/images/room\ \(2\).jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+#rooms .bottom .row:nth-child(1) .col-12:nth-child(3) .photo{
+    height: 300px;
+    background:url("../../../assets/images/room\ \(3\).jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+#rooms .bottom .row:nth-child(2) .col-12:nth-child(1) .photo{
+    height: 300px;
+    background:url("../../images/hotel-slide-10.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+#rooms .bottom .row:nth-child(2) .col-12:nth-child(2) .photo{
+    height: 300px;
+    background:url("../../images/hotel-slide-7.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+#rooms .bottom .row:nth-child(2) .col-12:nth-child(3) .photo{
+    height: 300px;
+    background:url("../../images/hotel-slide-3.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+#rooms .btn{
+    background: #ae855f;
+}
+
+#footer{
+    background: #081123;
+}
