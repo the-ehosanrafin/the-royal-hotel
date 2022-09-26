@@ -86,11 +86,13 @@ img{
     border-radius: 5px;
 }
 
-#form .btn{
+#form .find-button{
     border: 2px solid #d6baa0;
     color: #d6baa0;
     font-weight: 600;
     border-radius: 5px;
+    text-decoration: none;
+    
 }
 
 #about .title{
